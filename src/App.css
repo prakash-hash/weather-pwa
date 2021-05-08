@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+.App{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    text-align: center;
+    /* background-size: cover; */
+    background-size: 100vw 100vh;
+    font-family: 'Comfortaa' ;
+
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.input-box{
+    border-style: none;
+    height: 40px;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+    min-width: 300px;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:728px) {
+    .App{
+        background-size: auto 100vh;
+    }
+    .container{
+        margin-top: 30px;
+        width:90vw;
+    }
+    .input-box{
+        width: 90vw;
+    }
+
+    .App{
+        place-content: start center;
+    }
+   
+}
+
+.my-img{
+    z-index: -1;
+}

@@ -1,0 +1,24 @@
+.weather-card{
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: black;
+    background-position: center;
+    color: white;
+    opacity: 0.8;
+    padding: 10px;
+    min-width: 300px;
+}
+
+.weather-icon{
+    box-shadow: teal;
+}
+
+.countryName{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bolder;
+}
